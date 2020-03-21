@@ -1,0 +1,893 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="934e7bf4-4795-446c-8737-f1a2f2495644" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Amazon_Admin/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Amazon_Admin/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Amazon_Admin/.idea/webServers.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Amazon_Admin/bak/sales_crawl_bak.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Amazon_Admin/cookies.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spider/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spider/Amazon_Spider_Control/cookies_raw.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spider/Jianshu/1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spider/selenium_add_zhaoping/add_zp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spider/selenium_add_zhaoping/recruit.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spider/selenium_add_zhaoping/to_num/data_tran.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spider/selenium_add_zhaoping/tonum.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Work/Amazon_pic/1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Work/Amazon_pic/amazon_login.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Work/Amazon_pic/fateadm_api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Work/Amazon_pic/ls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Work/Amazon_pic/pop.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Work/Amazon_pic/日期格式.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Work/bigdata_Tes/lottery.py.doc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Work/bigdata_Tes/unique_counter.py.doc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Work/bigdata_Tes/课时10 id_generator.py.doc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Work/bigdata_Tes/课时11 online_count.py.doc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Work/bigdata_Tes/课时15 hash_counter.py.doc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Work/bigdata_Tes/课时22 timeline.py.doc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Work/bigdata_Tes/课时23 message_queue.py.doc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Work/bigdata_Tes/课时24 fixed_fifo.py.doc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Work/bigdata_Tes/课时29 item_filter.py (1).doc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Work/bigdata_Tes/课时31 tag.py.doc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Work/bigdata_Tes/课时32 vote.py.doc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Work/bigdata_Tes/课时38 rank_list.py.doc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Work/bigdata_Tes/课时39 paging.py.doc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Work/bigdata_Tes/课时40 auto_complete.py.doc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Work/bigdata_Tes/课时8 cache.py.doc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Work/bigdata_Tes/课时9 counter.py.doc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Work/region.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Xs_Spider/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ZH_OA/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sales_employee/static/employee.txt" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Amazon_Contorl$Flask__run_py_.coverage" NAME="Flask (run.py) Coverage Results" MODIFIED="1560607042807" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Amazon_Contorl$anazon_spider.coverage" NAME="anazon_spider Coverage Results" MODIFIED="1561009720865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Amazon_Contorl$config.coverage" NAME="config Coverage Results" MODIFIED="1560597131106" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Amazon_Contorl$rating_spider_start.coverage" NAME="rating_spider_start Coverage Results" MODIFIED="1561094368835" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Amazon_Contorl$manage.coverage" NAME="manage Coverage Results" MODIFIED="1560690930804" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/model" />
+    <SUITE FILE_PATH="coverage/Amazon_Contorl$Flask__app_py___1_.coverage" NAME="Flask (app.py) (1) Coverage Results" MODIFIED="1560597737146" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Amazon_Contorl$goods_star.coverage" NAME="goods_star Coverage Results" MODIFIED="1561009610691" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Amazon_Contorl$models.coverage" NAME="models Coverage Results" MODIFIED="1560656317690" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/model" />
+    <SUITE FILE_PATH="coverage/Amazon_Contorl$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1560664850727" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Amazon_Contorl$app.coverage" NAME="app Coverage Results" MODIFIED="1584760847270" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Amazon_Contorl$goods_info_spider.coverage" NAME="goods_info_spider Coverage Results" MODIFIED="1560649915520" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Amazon_Contorl$good_rating.coverage" NAME="good_rating Coverage Results" MODIFIED="1561015876184" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Amazon_Contorl$Flask__runserver_py_.coverage" NAME="Flask (runserver.py) Coverage Results" MODIFIED="1560597261021" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Amazon_Contorl$sales_spider.coverage" NAME="sales_spider Coverage Results" MODIFIED="1565598661941" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/download_fiels.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="358">
+              <caret line="56" lean-forward="true" selection-start-line="55" selection-start-column="7" selection-end-line="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/good_rating.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="30" column="33" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
+              <folding>
+                <element signature="e#34#45#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/goods_star.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1305">
+              <caret line="92" column="31" selection-start-line="92" selection-start-column="31" selection-end-line="92" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rating_spider_start.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" selection-start-line="4" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/manage.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="185">
+              <caret line="74" column="31" selection-start-line="74" selection-start-column="31" selection-end-line="74" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sales_spider.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="33" column="81" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="89" />
+              <folding>
+                <element signature="e#34#45#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/goods_star_short.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="118" selection-start-line="8" selection-start-column="1" selection-end-line="9" selection-end-column="118" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Flask Main" />
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>info</find>
+      <find>add</find>
+      <find>phone</find>
+      <find>a href=&quot;/&quot;</find>
+      <find>radio</find>
+      <find>submit</find>
+      <find>ra</find>
+      <find>submint</find>
+      <find>tabletest</find>
+      <find>checkbox</find>
+      <find>console.log</find>
+      <find>data-labelauty</find>
+      <find>download</find>
+      <find>request.values</find>
+      <find>before</find>
+      <find>/rating_start</find>
+      <find>goods_star()</find>
+      <find>get_good</find>
+      <find>get_star_info</find>
+      <find>restart_spider</find>
+      <find>with</find>
+      <find>信息爬虫错误</find>
+      <find>get_goods_name</find>
+      <find>get_star_rating</find>
+      <find>fiels</find>
+      <find>submit12</find>
+      <find>button2</find>
+      <find>/user/goods_star</find>
+      <find>alter_setting</find>
+      <find>good_star</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>static</replace>
+      <replace>../staric</replace>
+      <replace>{{url_for('static',filrname='</replace>
+      <replace>../static</replace>
+      <replace>a href=&quot;/index&quot;</replace>
+      <replace>button</replace>
+      <replace>files</replace>
+      <replace>/user/goods_star/long</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/models.py" />
+        <option value="$PROJECT_DIR$/form/login_form.py" />
+        <option value="$PROJECT_DIR$/runserver.py" />
+        <option value="$PROJECT_DIR$/exts.py" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/templates/user.py" />
+        <option value="$PROJECT_DIR$/templates/run.py" />
+        <option value="$PROJECT_DIR$/static/bootstrap/fonts/glyphicons-halflings-regular.svg" />
+        <option value="$PROJECT_DIR$/static/bootstrap/css/bootstrap.css" />
+        <option value="$PROJECT_DIR$/static/js/scripts.js" />
+        <option value="$PROJECT_DIR$/templates/movie_table.html" />
+        <option value="$PROJECT_DIR$/goods_info_spider.py" />
+        <option value="$PROJECT_DIR$/run.py" />
+        <option value="$USER_HOME$/Downloads/css3-hover-icon-menu/index.html" />
+        <option value="$PROJECT_DIR$/templates/success.html" />
+        <option value="$PROJECT_DIR$/templates/500.html" />
+        <option value="$PROJECT_DIR$/model/user_model.py" />
+        <option value="$PROJECT_DIR$/templates/user_table.html" />
+        <option value="$PROJECT_DIR$/setting.txt" />
+        <option value="$PROJECT_DIR$/anazon_spider.py" />
+        <option value="$PROJECT_DIR$/model/models.py" />
+        <option value="$PROJECT_DIR$/model/goods_model.py" />
+        <option value="$PROJECT_DIR$/setting.json" />
+        <option value="$PROJECT_DIR$/static/css/jquery-labelauty.css" />
+        <option value="$PROJECT_DIR$/static/js/jquery-labelauty.js" />
+        <option value="/Volumes/Work/大数据/赛题/训练题/训练题三/题目/本地网站/templates/rating_table.html" />
+        <option value="$PROJECT_DIR$/model/config.py" />
+        <option value="$PROJECT_DIR$/model/manage.py" />
+        <option value="$PROJECT_DIR$/model/__init__.py" />
+        <option value="$PROJECT_DIR$/static/css/style_index.css" />
+        <option value="$PROJECT_DIR$/templates/index.html" />
+        <option value="$PROJECT_DIR$/goods.csv" />
+        <option value="$PROJECT_DIR$/download_fiels/1231231.cs" />
+        <option value="$PROJECT_DIR$/templates/add_shop.html" />
+        <option value="$PROJECT_DIR$/templates/setting.html" />
+        <option value="$PROJECT_DIR$/templates/download_fiels.html" />
+        <option value="$PROJECT_DIR$/templates/goods_star.html" />
+        <option value="$PROJECT_DIR$/templates/goods_star_short.html" />
+        <option value="$PROJECT_DIR$/templates/goods_star_long.html" />
+        <option value="$PROJECT_DIR$/修改内容" />
+        <option value="$PROJECT_DIR$/rating_spider_start.py" />
+        <option value="$PROJECT_DIR$/app.py" />
+        <option value="$PROJECT_DIR$/app.py" />
+        <option value="$PROJECT_DIR$/goods_star.py" />
+        <option value="$PROJECT_DIR$/amazon_spider.py" />
+        <option value="$PROJECT_DIR$/templates/login.html" />
+        <option value="$PROJECT_DIR$/manage.py" />
+        <option value="$PROJECT_DIR$/good_rating.py" />
+        <option value="$PROJECT_DIR$/sales_spider.py" />
+        <option value="$PROJECT_DIR$/templates/rating_table.html" />
+        <option value="$PROJECT_DIR$/config.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="y" value="23" />
+    <option name="width" value="1127" />
+    <option name="height" value="1080" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Amazon_Contorl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Amazon_Contorl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Amazon_Contorl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Amazon_Contorl" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.templateLanguages.PyTemplateLanguageModulesConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/templates" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/static/js" />
+      <recent name="$PROJECT_DIR$/static" />
+      <recent name="$PROJECT_DIR$/static/css" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/templates" />
+      <recent name="$PROJECT_DIR$/model" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.app">
+    <configuration name="setting.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Amazon_Contorl/templates/setting.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Amazon_Contorl" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="good_rating" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Amazon_Contorl" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/good_rating.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="rating_spider_start" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Amazon_Contorl" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/rating_spider_start.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sales_spider" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Amazon_Contorl" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sales_spider.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Flask (app.py)" type="Python.FlaskServer" factoryName="Flask server" singleton="false" nameIsGenerated="true">
+      <module name="Amazon_Contorl" />
+      <option name="target" value="$PROJECT_DIR$/app.py" />
+      <option name="targetType" value="PATH" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="/usr/local/bin/python3.7" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Python.FlaskServer" factoryName="Flask server" singleton="false">
+      <module name="Amazon_Contorl" />
+      <option name="target" value="$PROJECT_DIR$/app.py" />
+      <option name="targetType" value="PATH" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="/usr/local/bin/python3.7" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Flask server.Flask (app.py)" />
+      <item itemvalue="JavaScript Debug.setting.html" />
+      <item itemvalue="Python.app" />
+      <item itemvalue="Python.good_rating" />
+      <item itemvalue="Python.rating_spider_start" />
+      <item itemvalue="Python.sales_spider" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.app" />
+        <item itemvalue="Python.sales_spider" />
+        <item itemvalue="JavaScript Debug.setting.html" />
+        <item itemvalue="Python.rating_spider_start" />
+        <item itemvalue="Python.good_rating" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="934e7bf4-4795-446c-8737-f1a2f2495644" name="Default Changelist" comment="" />
+      <created>1560564677620</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1560564677620</updated>
+      <workItem from="1560564679217" duration="3133000" />
+      <workItem from="1560587133182" duration="4408000" />
+      <workItem from="1560594998816" duration="2694000" />
+      <workItem from="1560597867776" duration="3291000" />
+      <workItem from="1560601438600" duration="12000" />
+      <workItem from="1560601452975" duration="2000" />
+      <workItem from="1560601483713" duration="188000" />
+      <workItem from="1560601800732" duration="292000" />
+      <workItem from="1560602267480" duration="1531000" />
+      <workItem from="1560604035437" duration="1517000" />
+      <workItem from="1560605639730" duration="165000" />
+      <workItem from="1560605929980" duration="835000" />
+      <workItem from="1560607098111" duration="520000" />
+      <workItem from="1560608047062" duration="473000" />
+      <workItem from="1560647503280" duration="10878000" />
+      <workItem from="1560660980696" duration="7273000" />
+      <workItem from="1560668803940" duration="3552000" />
+      <workItem from="1560682549030" duration="12779000" />
+      <workItem from="1560737194521" duration="7347000" />
+      <workItem from="1560755571530" duration="8018000" />
+      <workItem from="1560776969227" duration="1033000" />
+      <workItem from="1560829677319" duration="123000" />
+      <workItem from="1560905744320" duration="14234000" />
+      <workItem from="1560927857330" duration="7825000" />
+      <workItem from="1560991595204" duration="22739000" />
+      <workItem from="1561024375153" duration="58000" />
+      <workItem from="1561024486280" duration="65000" />
+      <workItem from="1561078729026" duration="629000" />
+      <workItem from="1561079445276" duration="213000" />
+      <workItem from="1561080115251" duration="12997000" />
+      <workItem from="1561106704962" duration="2486000" />
+      <workItem from="1561304630361" duration="31000" />
+      <workItem from="1561363332125" duration="4636000" />
+      <workItem from="1561374242283" duration="1394000" />
+      <workItem from="1561560389549" duration="429000" />
+      <workItem from="1561626618206" duration="307000" />
+      <workItem from="1561687832286" duration="1034000" />
+      <workItem from="1561706796694" duration="489000" />
+      <workItem from="1562031467054" duration="5000" />
+      <workItem from="1562032911724" duration="4000" />
+      <workItem from="1562209607215" duration="35000" />
+      <workItem from="1562575177574" duration="1000" />
+      <workItem from="1562575181124" duration="157000" />
+      <workItem from="1563152670806" duration="359000" />
+      <workItem from="1563157614181" duration="22000" />
+      <workItem from="1563161192894" duration="3000" />
+      <workItem from="1563244845374" duration="786000" />
+      <workItem from="1563263646132" duration="289000" />
+      <workItem from="1563759396965" duration="828000" />
+      <workItem from="1564383212665" duration="524000" />
+      <workItem from="1564625208610" duration="854000" />
+      <workItem from="1565071926041" duration="1170000" />
+      <workItem from="1565080534783" duration="1263000" />
+      <workItem from="1565226037772" duration="8624000" />
+      <workItem from="1565246708696" duration="413000" />
+      <workItem from="1565249458350" duration="2643000" />
+      <workItem from="1565332797746" duration="1638000" />
+      <workItem from="1565363091787" duration="66000" />
+      <workItem from="1565407739609" duration="2785000" />
+      <workItem from="1565581055998" duration="428000" />
+      <workItem from="1565581952800" duration="5597000" />
+      <workItem from="1565942393141" duration="1230000" />
+      <workItem from="1565962394745" duration="199000" />
+      <workItem from="1566198015101" duration="1443000" />
+      <workItem from="1566203950302" duration="476000" />
+      <workItem from="1568703270557" duration="35000" />
+      <workItem from="1571142388378" duration="753000" />
+      <workItem from="1571145781041" duration="2000" />
+      <workItem from="1584760794945" duration="567000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="172829000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1127" height="1080" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.46451613" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32683983" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7070707" visible="true" weight="0.48076922" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49966645" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.07974816" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.2929293" side_tool="true" weight="0.48958334" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3264865" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23140988" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32899022" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="395" column="8" selection-start-line="395" selection-start-column="8" selection-end-line="395" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/download_fiels/2019-06-20商品信息.csv" />
+    <entry file="file://$PROJECT_DIR$/download_fiels/CASIO 男式 ' g 抗震 ' 石英不锈钢树脂休闲手表，颜色：黑色（型号： gst-s100g-1bcr )-one_star-2019-06-21商品评论.csv" />
+    <entry file="file://$PROJECT_DIR$/download_fiels/2019-06-21商品信息.csv" />
+    <entry file="file://$PROJECT_DIR$/download_fiels/1231231.cs" />
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/flask/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="1220" selection-start-line="1220" selection-end-line="1220" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/form/login_form.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setting.json" />
+    <entry file="file://$PROJECT_DIR$/ghostdriver.log" />
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/flask_login/mixins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/修改内容">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/timing_spider.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/404.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#15#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/input-checked.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/input-unchecked.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Amazon_Admin/static/img/backgrounds/1.jpg" />
+    <entry file="file://$PROJECT_DIR$/../Amazon_Admin/static/img/backgrounds/1@2x.jpg" />
+    <entry file="file://$PROJECT_DIR$/static/ico/apple-touch-icon-57-precomposed.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/ico/apple-touch-icon-72-precomposed.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/ico/apple-touch-icon-144-precomposed.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/ico/favicon.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/jquery.backstretch.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4815">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/form-elements.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="562">
+          <caret line="166" column="1" selection-start-line="166" selection-start-column="1" selection-end-line="166" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/jquery-labelauty.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/jquery-labelauty.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="11" column="40" lean-forward="true" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/font/LigatureSymbols-2.05.eot">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/font/LigatureSymbols-2.05.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="57" column="31" selection-start-line="57" selection-start-column="31" selection-end-line="57" selection-end-column="31" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#form#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="795">
+          <caret line="53" column="11" selection-start-line="53" selection-start-column="11" selection-end-line="53" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/add_shop.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1527">
+          <caret line="99" selection-start-line="99" selection-end-line="99" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/goods_star_long.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="812">
+          <caret line="130" column="2" selection-start-line="130" selection-start-column="2" selection-end-line="130" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exts.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/amazon_spider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/flask_sqlalchemy/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12705">
+          <caret line="870" column="54" lean-forward="true" selection-start-line="870" selection-start-column="54" selection-end-line="870" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/setting.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="66" column="56" selection-start-line="66" selection-start-column="53" selection-end-line="66" selection-end-column="56" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/rating_table.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="47" selection-start-line="47" selection-end-line="113" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/goods_star.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="40" column="25" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/bootstrap/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2382">
+          <caret line="4" column="34137" selection-start-line="4" selection-start-column="34137" selection-end-line="4" selection-end-column="34137" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/good_rating.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="30" column="33" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
+          <folding>
+            <element signature="e#34#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goods_star.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1305">
+          <caret line="92" column="31" selection-start-line="92" selection-start-column="31" selection-end-line="92" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rating_spider_start.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sales_spider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="33" column="81" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="89" />
+          <folding>
+            <element signature="e#34#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/goods_star_short.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="118" selection-start-line="8" selection-start-column="1" selection-end-line="9" selection-end-column="118" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="74" column="31" selection-start-line="74" selection-start-column="31" selection-end-line="74" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/download_fiels.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="56" lean-forward="true" selection-start-line="55" selection-start-column="7" selection-end-line="56" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

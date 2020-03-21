@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <script src="../static/js/jquery-1.11.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <title>亚马逊商品监控系统</title>
+</head>
+
+<style type="text/css">
+     .zzidc{color: white;}
+</style>
+
+<body>
+</br>
+<li>
+<p align="center"><a href="/index">返回首页</a></p>
+<p align="center"><a href="/user/goods_star_long">查看长期监控</a></p>
+<p align="center"><a href="/user/goods_star_short">查看短期监控</a></p>
+    </li>
+<div class="zzidc row"  align="center">
+        <div class="col-md-12 col-sm-12 col-xs-12">
+        <div class="panel panel-default" align="center">
+            <div class="panel-heading" align="center">
+                <h3>所 有 商 品 星 级 信 息</h3>
+            </div>
+            <div class="panel-body">
+                <div class="table-responsive">
+                    <table id="tabletest" class="table table-striped table-bordered table-hover" align="center">
+                        <thead>
+                        <tr align="center">
+                                <td>商品名称</td>
+                                <td>商品总评分</td>
+                                <td>商品评论数量</td>
+                                <td>商品星级</td>
+                                <td>商品ASIN</td>
+                        </tr>
+                        </thead>
+                        <tbody id="tb">
+                        {% for i in spider_info %}
+                            <tr  align="center">
+                                    <!--<td>{{ i.goods_name }}</td>-->
+                                    <!--<td>{{ i.sum_star }}</td>-->
+                                    <!--<td>{{ i.rating_num }}</td>-->
+                                    <!--<td>{{ i.star }}</td>-->
+                                    <!--<td>{{ i.asin }}</td>-->
+                            </tr>
+                        {% endfor %}
+                        </tbody>
+                    </table>
+                <input type="button"  src="add_shop.html" id="i1" value="上一页">
+                <input type="button" src="add_shop.html"  id="i2" value="下一页">
+                <!--<label>跳转到:<input  type="text" class="txtCon" width="20px"; height="20px"; src="add_shop.html" id="i3" value=""></label>-->
+                <a href="/index"><input type="button" value="返回首页"></a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+
+<script>
+    var page=0;
+     $('#i1').on('click',function () {
+        $("#tb").text("");
+        if(page>0) {
+            page -= 1;
+            console.log(page);
+        }　
+        $.ajax({
+            url:'/user/goods_star',
+            type:'post',
+            dataType:'json',
+            data:{"page":page},
+            success:function (data) {
+                if (data){
+                    for(var i=0;i<data.length;i++){
+                        console.log(data[i])
+                        var tr;
+                       tr='<td>'+data[i].goods_name+'</td>'+'<td>'+data[i].sum_star+'</td>'+'<td>'+data[i].rating_num+'</td>'+'<td>'+data[i].star+'</td>'+'<td>'+data[i].asin+'</td>'
+
+                $("#tabletest").append('<tr align="center">'+tr+'</tr>')
+            }
+                    console.log(data)
+                }
+
+            }
+            })
+    })
+
+    $('#i2').on('click',function () {
+        page+=1;
+        $("#tb").text("");
+        console.log(page);
+        $.ajax({
+            type:'post',
+            url:'/user/goods_star',
+            dataType:'json',
+            data:{"page":page},
+            success : function (data) {
+
+                if (data){
+                    for(var i=0;i<data.length;i++){
+                        console.log(data[i])
+                        var tr;
+                        tr='<td>'+data[i].goods_name+'</td>'+'<td>'+data[i].sum_star+'</td>'+'<td>'+data[i].rating_num+'</td>'+'<td>'+data[i].star+'</td>'+'<td>'+data[i].asin+'</td>'
+                $("#tabletest").append('<tr align="center">'+tr+'</tr>')
+                console.log(data);
+                }
+            }
+        }
+        })
+    })
+
+
+
+</script>
+        <script src="../static/bootstrap/js/bootstrap.min.js"></script>
+        <script src="../static/js/jquery.backstretch.min.js"></script>
+        <script src="../static/js/scripts.js"></script>
+<script>
+    $.ajax({
+            url:'/user/goods_star',
+            type:'post',
+            dataType:'json',
+            data:{"page":1},
+            success:function (data) {
+                if (data){
+                    for(var i=0;i<data.length;i++){
+                        console.log(data[i])
+                        var tr;
+                       tr='<td>'+data[i].goods_name+'</td>'+'<td>'+data[i].sum_star+'</td>'+'<td>'+data[i].rating_num+'</td>'+'<td>'+data[i].star+'</td>'+'<td>'+data[i].asin+'</td>'
+
+                $("#tabletest").append('<tr align="center">'+tr+'</tr>')
+            }
+                    console.log(data)
+                }
+
+            }
+            })
+</script>
+</body>
+</html>

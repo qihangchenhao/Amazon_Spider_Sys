@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+           <script src="../static/js/jquery-1.8.3.min.js"></script>
+        <script src="../static/bootstrap/js/bootstrap.min.js"></script>
+        <script src="../static/js/jquery.backstretch.min.js"></script>
+        <script src="../static/js/scripts.js"></script>
+    <meta charset="UTF-8">
+    <title>亚马逊商品监控系统</title>
+    <style type="text/css">
+     .zzidc{color: white;}
+</style>
+</head>
+	<script>
+		$.ajax({
+		url:'/user/download_fiels',
+		type:'post',
+		dataType:'json',
+		async:'false',
+		success:function (datas) {
+			if (datas){
+				for(var i=0;i<datas.length;i++) {
+				    div = '<br><li><a href="/user/download_fiels/'+datas[i].file+'" class="zzidc">'+datas[i].file+"</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='javascript:void(0)' id='"+datas[i].file+"' onclick='selectMore(id)'>删除</a></li>";
+                    $("#goods_info").append(div);
+
+                }
+			}
+		  }
+	})
+function selectMore(id) {
+		    if (confirm("确定删除吗")) {
+        $.ajax({
+		url:'/user/downloads_fiels/delete',
+		type:'post',
+		dataType:'json',
+        data:{"name":id},
+		success:function (datas) {
+        if (datas == "success") {
+            alert("删除成功");
+        } else {
+            alert("取消删除")
+        }
+    }
+	})
+    }            location.reload(true);
+
+
+    }
+
+	</script>
+<body>
+<br><br>
+<p align="center"><a class="zzidc" href="/index">返回首页</a></p>
+<ul id="goods_info">
+</ul>
+</body>
+
+</html>

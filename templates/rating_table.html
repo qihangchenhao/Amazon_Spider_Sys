@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<script src="../static/js/jquery-1.8.3.min.js"></script>
+            <script src="../static/js/jquery-1.8.3.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title>Rating_Table</title>
+</head>
+
+<script>
+    $.ajax({
+            type:'post',
+            url:'/user/rating_table/get_goods_name',
+            dataType:'json',
+            async:true,
+            // timeout: 1000000,
+            success : function (data) {
+                        console.log(data)
+                if (data){
+                    $("#goods").empty();
+                        $("#goods").append("<option value=''>请选择要爬评论的商品</option>");
+                        for(var i=0;i<data.length;i++){
+                        $("#goods").append("<option name='good_name' value='"+data[i].asin+"'>"+data[i].goods_name+'</option>');
+                        }
+                }
+            }
+        })
+</script>
+<style type="text/css">
+     .zzidc{color: white;}
+</style>
+<body>
+<br>
+<br>
+<p align="center"><a href="/index">返回首页</a></p>
+<div class="zzidc row">
+    <div class="col-md-12 col-sm-12 col-xs-12">
+        <div class="panel panel-default" align="center">
+            <div class="panel-heading" align="center">
+                <h3>商 品 评 价 抓 取</h3>
+            </div>
+            <br>
+            <form action="/user/rating_start" id="form111" method="POST">
+                <select name="goods" id="goods" class=""></select>
+                <select name="good_star" id="good_star" class="">
+                    <option name="star" value="">请选择要爬的星级</option>
+                    <option name="star" value="one">OneStar</option>
+                    <option name="star" value="two">TwoStar</option>
+                    <option name="star" value="three">ThreeStar</option>
+                    <option name="star" value="four">FourStar</option>
+                    <option name="star" value="five">FiveStar</option>
+                </select>
+                <input type="submit" onclick="sumdata()" id="sub">
+    </form>
+            <div class="panel-body">
+                <div class="table-responsive">
+                    <!--<table id="tabletest" class="table table-striped table-bordered table-hover" align="center">-->
+                        <!--<thead>-->
+                        <!--<tr align="center">-->
+                            <!--{% for i in labels %}-->
+                                <!--<td align="center">{{ i }}</td>-->
+
+                            <!--{% endfor %}-->
+                             <!--{% for i in content %}-->
+                            <!--<tr align="center">-->
+                                    <!--<td>{{ i.user_id }}</td>-->
+                                    <!--<td>{{ i.movie_id }}</td>-->
+                                    <!--<td>{{ i.rating }}</td>-->
+                                    <!--<td>{{ i.rate_time }}</td>-->
+                            <!--</tr>-->
+                        <!--{% endfor %}-->
+                        <!--</tr>-->
+                        <!--</thead>-->
+                        <!--<tbody id="tb">-->
+                        <!--</tbody>-->
+                    <!--</table>-->
+                 <!--<input type="button" src="movie_table.html" id="i1" value="上一页">-->
+                <!--<input type="button" src="movie_table.html" id="i2" value="下一页">-->
+<a href="/index"><input type="button" value="返回首页"></a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+<script>
+    function sumdata() {
+        $.ajax({
+            type:'post',
+            url:'/user/rating_table/get_goods_name',
+            dataType:'json',
+            async:true,
+            // timeout: 1000000,
+            success : function (data) {
+            }
+            })
+            alert("评价爬虫提交成功，稍后请在文件下载中查看！")
+        }
+</script>
+        <script src="../static/bootstrap/js/bootstrap.min.js"></script>
+        <script src="../static/js/jquery.backstretch.min.js"></script>
+        <script src="../static/js/scripts.js"></script>
+
+</body>
+</html>

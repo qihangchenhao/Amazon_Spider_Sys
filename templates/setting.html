@@ -1,0 +1,195 @@
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>亚马逊商品监控系统</title>
+<link rel="stylesheet" href="../static/css/jquery-labelauty.css">
+<style>
+ul { list-style-type: none;}
+li { display: inline-block;}
+li { margin: 10px 0;}
+input.labelauty + label { font: 12px "Microsoft Yahei";}
+</style>
+</head>
+<style type="text/css">
+     .zzidc{color: white;}
+	.button1 {
+display: inline-block;
+font-size: 11px;
+padding: 10px;
+background-color: #efefef;
+color: #b5b5b5;
+cursor: pointer;
+
+border-radius: 3px 3px 3px 3px;
+-moz-border-radius: 3px 3px 3px 3px;
+-webkit-border-radius: 3px 3px 3px 3px;
+border-radius:5px;
+
+transition: background-color 0.25s;
+-moz-transition: background-color 0.25s;
+-webkit-transition: background-color 0.25s;
+-o-transition: background-color 0.25s;
+
+-moz-user-select: none;
+-khtml-user-select: none;
+-webkit-user-select: none;
+-o-user-select: none;
+
+}
+.button2 {
+display: inline-block;
+font-size: 11px;
+padding: 10px;
+background-color: #19a5db;
+color: #b5b5b5;
+cursor: pointer;
+
+border-radius: 3px 3px 3px 3px;
+-moz-border-radius: 3px 3px 3px 3px;
+-webkit-border-radius: 3px 3px 3px 3px;
+border-radius:5px;
+
+transition: background-color 0.25s;
+-moz-transition: background-color 0.25s;
+-webkit-transition: background-color 0.25s;
+-o-transition: background-color 0.25s;
+
+-moz-user-select: none;
+-khtml-user-select: none;
+-webkit-user-select: none;
+-o-user-select: none;
+
+}
+    </style>
+<body>
+	<script src="../static/js/jquery-1.8.3.min.js"></script>
+<script src="../static/js/jquery-labelauty.js"></script>
+        <script src="../static/js/jquery.backstretch.min.js"></script>
+        <script src="../static/js/scripts.js"></script>
+
+	<script>
+		$.ajax({
+		url:'/user/setting/get_spider_data',
+		type:'post',
+		dataType:'json',
+		success:function (datas) {
+			if (datas){
+				for(var i=0;i<datas.length;i++){
+					var div;
+					if(datas[i].flag=="0"){
+					div = '<br><div title="'+datas[i].asin+'"><input type="checkbox" name="'+datas[i].id+'" id="'+datas[i].id+'" value="0" checked class="labelauty" /><label for="'+datas[i].id+'"> <span class="labelauty-unchecked-image"></span><a href="javascript:void(0)" id="delete'+datas[i].id+'" onclick="javascript:selectMore(this.id);">删除</a><span class="labelauty-unchecked">'+datas[i].goods_name+'</span><span class="labelauty-checked-image"></span><span class="labelauty-checked">'+datas[i].goods_name+'</span></label></div></br>'
+				}
+					else{
+						div = '<br><div title="'+datas[i].asin+'"><input type="checkbox" name="'+datas[i].id+'" id="'+datas[i].id+'"value="0"class="labelauty" /><label for="'+datas[i].id+'"> <span class="labelauty-unchecked-image"></span><a href="javascript:void(0)" id="delete'+datas[i].id+'"  onclick="javascript:selectMore(this.id);">删除</a><span class="labelauty-unchecked">'+datas[i].goods_name+'</span><span class="labelauty-checked-image"></span><span class="labelauty-checked">'+datas[i].goods_name+'</span></label></div></br>';
+				}
+					$("#goods_info").append(div);
+}
+				$("#goods_info").append('<input type="submit" class="button1" onclick="sumdata()" value="---->提交<----">');
+			}
+		  }
+	})
+
+function sumdata() {
+	$("#form1").removeAttr("disabled");
+	$.ajax({
+	//几个参数需要注意一下
+		type: "post",//方法类型
+		dataType: "json",//预期服务器返回的数据类型
+		url: "/user/setting/alter_setting" ,//url
+		data: $('#form1 input').serialize(),
+		success: function (result) {
+			console.log(typeof ($('#form1 input')));//打印服务端返回的数据(调试用)
+			if (result) {
+				alert("修改设置成功");
+			}
+			;
+		},
+		error : function() {
+			alert("异常！");
+		}
+	});
+}
+</script>
+	<center>
+		    </br>
+    </br>
+<p align="center"><a href="/index" class="zzidc">返回首页</a></p>
+<h1 class="zzidc">亚马逊商品爬虫设置</h1>
+		<h3 class="zzidc">下面为抓取商品设置以及彻底删除设置(蓝色按钮显示为抓取，白色按钮家显示为不抓取)</h3>
+<!--<h3 class="zzidc">抓取时间</h3>-->
+<ul class="zzidc dowebok">
+	<!--<from>-->
+	<!--<li><input type="radio" name="radio" disabled checked data-labelauty="每天抓取一次"></li>-->
+	<!--<li><input type="radio" name="radio" data-labelauty="每天抓取两次"></li>-->
+	<!--<li><input type="radio" name="radio" data-labelauty="每天抓取三次"></li>-->
+	<!--<div ><li><input type="submit"  id="submit11" class="button1"  value="&#45;&#45;&ndash;&gt;提交<&#45;&#45;&#45;&#45;"></li></div>-->
+	<!--</from>-->
+<!--</ul>-->
+
+<hr>
+
+<h3 class="zzidc">要抓取的商品</h3>
+<h4 class="zzidc">如果刚添加的商品名称没有显示,重新启动爬虫即可</h4>
+		<div><li><a href="javascript:void(0)"><input type="submit"  id="submit12" class="button1" value="手动重新启动爬虫"></a></li></div>
+		<from id="form1" method="post" action="/user/setting/alter_setting">
+		<ul class="zzidc dowebok" id="goods_info">
+
+</ul></from>
+
+<script>
+	var isClick = true;
+$(function(){
+	$(':input').labelauty()
+})
+
+$('#submit11').on('click',function () {
+	var str = document.getElementById("submit11");
+	str.className="button2";
+	alert("已成功提交，请不要重复提交！")
+		 })
+
+$('#submit12').on('click',function () {
+		if(isClick) {
+			isClick = false;
+			$.ajax({
+				type: "post",
+				url: "/user/setting/restart_spider",   //请求发送到服务器
+				success: function (results) {
+					alert("已重新启动爬虫，请在3分钟左右后查看！")
+				}
+			})
+			setTimeout(function() {
+				isClick = true;
+			}, 300000);//一秒内不
+		}else {
+			alert("提交频繁，后台正在抓取，请在5分钟之后重试！")
+		}
+		})
+
+function selectMore(id) {
+	if (confirm("确定删除吗")) {
+		$.ajax({
+			type: "post",
+			url: "/user/delete",
+			data: {"id": id},
+			success: function (data) {
+				if (data == "success") {
+					alert("删除成功");
+					location.reload(true);
+				} else {
+					alert("取消删除")
+				}
+			}
+		})
+	}
+}
+</script>
+
+
+</center>
+
+
+<div style="text-align:center;clear:both;">
+</div>
+</body>
+</html>

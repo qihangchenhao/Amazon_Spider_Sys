@@ -1,0 +1,136 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<title>亚马逊商品监控系统</title>
+<link rel="stylesheet" type="text/css" href="../static/css/style_index.css" />
+</head>
+<style type="text/css">
+        #all_light { /*整个弹窗的页面*/
+            opacity: 0.5; /*透明度*/
+            width: 30%; /*宽度*/
+            height: 500px; /*高度，不能百分百*/
+            background: rgba(0, 0, 0, 0.06); /*背景色*/
+            position: absolute;
+            top: 0;
+            left: 0; /*定位*/
+            display: none; /*隐藏*/
+            z-index: 2; /*覆盖*/
+        }
+        #contes { /* 弹框的页面*/
+			opacity: 0.8;
+            width: 500px; /*宽度*/
+            height: 500px; /*高度*/
+            background: #fff; /*背景色*/
+            display: none; /*隐藏*/
+            z-index: 2; /*覆盖*/
+            position: absolute;
+            top: 100px;
+            left: 400px; /* 定位*/
+        }
+        input{
+            margin-bottom: 10px;
+        }
+
+    </style>
+</head>
+<body>
+<br><br><br><br><br>
+<br><br><br><br><br>
+<br><br><br><br><br>
+<br><br><br><br><br>
+<br><br><br>
+<div class="page">
+	<section class="demo">
+		<nav class="nav">
+			<ul>
+				<li>
+					<a href="#">
+						<span>
+							主页
+						</span>
+					</a>
+				</li>
+				<li>
+					<a href="/user/goods_star">
+						<span>
+							商品信息
+						</span>
+					</a>
+				</li>
+				<li>
+					<a href="/user/rating_table">
+						<span>
+							商品评价
+						</span>
+					</a>
+				</li>
+				<li>
+					<a href="/user/add_shop">
+						<span>
+							添加商品
+						</span>
+					</a>
+				</li>
+				<li>
+					<a href="/user/setting">
+						<span>
+							爬虫设置
+						</span>
+					</a>
+				</li>
+				<li>
+					<a href="/user/get_download">
+						<span>
+							文件下载
+						</span>
+					</a>
+				</li>
+			</ul>
+		</nav>
+	</section>
+</div>
+</div>
+<div style="text-align:center;clear:both;margin-top:50px">
+	<div id="contes" style="">
+    <div style="width:300px;height:40px;">
+        添加用户
+        <hr>
+        <form style=" margin-left: 100px;">
+            用户名：<input type="text" value="" name="" ><br>
+            密&nbsp;&nbsp;&nbsp;码：<input type="password" value="" name=""><br>
+            <input type="submit" value="提交">
+        </form>
+    </div>
+</div>
+<div id="all_light">
+</div>
+	<script>
+
+    function add() {
+
+        document.getElementById('all_light').style.display = 'block';
+
+        document.getElementById('contes').style.display = 'block';
+
+    }
+
+</script>
+	<script src="../static/js/jquery-1.11.1.min.js"></script>
+        <script src="../static/bootstrap/js/bootstrap.min.js"></script>
+        <script src="../static/js/jquery.backstretch.min.js"></script>
+        <script src="../static/js/scripts.js"></script>
+</div>
+{% if add_msg %}
+<div class="hidden" id="msg" name="msg">{{add_msg[0].msg}}</div>
+    <script language="javascript" >
+window.onload = function(){
+            var obj = document.getElementById("msg").innerHTML;
+            $(function fun(){
+                alert(obj);
+            })
+        }
+</script>
+    {% endif %}
+</body>
+</html>
