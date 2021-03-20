@@ -36,7 +36,7 @@ incremental==17.5.0
 itsdangerous==1.1.0
 jdcal==1.4.1
 jieba==0.39
-Jinja2==2.10.1
+Jinja2==2.11.3
 Js2Py==0.63
 kiwisolver==1.1.0
 lxml==4.3.2
