@@ -56,7 +56,7 @@ pefile==2019.4.18
 Pillow==6.0.0
 pluggy==0.12.0
 ply==3.11
-py==1.8.0
+py==1.10.0
 pyasn1==0.4.5
 pyasn1-modules==0.2.5
 pycparser==2.19
