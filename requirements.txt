@@ -15,7 +15,7 @@ constantly==15.1.0
 cryptography==2.6.1
 cssselect==1.0.3
 cycler==0.10.0
-Django==2.2.1
+Django==2.2.22
 django-emoji==2.2.2
 document==1.0
 docx==0.2.4
