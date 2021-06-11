@@ -92,7 +92,7 @@ tzlocal==1.5.1
 urllib3==1.24.1
 w3lib==1.20.0
 wcwidth==0.1.7
-websockets==7.0
+websockets==9.1
 Werkzeug==0.15.2
 wordcloud==1.5.0
 WTForms==2.2.1
