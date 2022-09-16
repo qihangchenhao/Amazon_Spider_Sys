@@ -41,7 +41,7 @@ Js2Py==0.63
 kiwisolver==1.1.0
 lxml==4.3.2
 macholib==1.11
-Mako==1.0.10
+Mako==1.2.2
 MarkupSafe==1.1.1
 matplotlib==3.1.0
 more-itertools==7.0.0
